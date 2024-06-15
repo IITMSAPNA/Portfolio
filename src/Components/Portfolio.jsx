@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/image.jpg";
+import image from "../images/car.jpeg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,10 +31,10 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Instakart Project",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A comprehensive e-commerce platform built with Vue.js for the front end and Python-Flask for the back end.",
+    url: "https://github.com/IITMSAPNA/Instakart",
   },
   {
     title: "Web Development for Beginners",
@@ -60,11 +60,11 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "2rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "72%", width: "82%", objectFit: "cover", marginLeft: "20%" }}
             alt={imageAltText}
           />
         </div>
@@ -72,7 +72,7 @@ const Portfolio = () => {
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <h3 style={{ flexBasis: "45px" }}>{project.title}</h3>
               </a>
               <p className="small">{project.description}</p>
             </div>

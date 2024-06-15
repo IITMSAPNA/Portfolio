@@ -27,7 +27,7 @@ const siteProps = {
   name: "Sapna Jangid",
   title: "Data Science and Application",
   email: "sapnaiitmpro@gmail.com",
-  gitHub: "https://github.com/IITMSAPNA",
+  gitHub: "IITMSAPNA",
   instagram: "",
   linkedIn: "",
   medium: "",

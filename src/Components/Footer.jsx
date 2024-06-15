@@ -35,7 +35,6 @@ const Footer = (props) => {
     linkedIn,
     medium,
     name,
-    primaryColor,
     twitter,
     youTube,
   } = props;
@@ -47,9 +46,9 @@ const Footer = (props) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        gap: "2.5rem",
-        padding: "5rem 0 3rem",
-        backgroundColor: primaryColor,
+        gap: "1.5rem",
+        padding: "1.5rem 0 1.5rem",
+        backgroundColor: "black",
         width: "100vw"
       }}
     >
@@ -57,7 +56,8 @@ const Footer = (props) => {
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: "2.5rem",
+          gap: "1.5rem",
+          alignItems: "left",
         }}
       >
         {email && (

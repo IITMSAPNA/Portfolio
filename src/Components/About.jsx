@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Pursuing a BS in Data Science and Programming at IIT Madras with expersite in Python, Vue.js, and machine learning technologies. Has a strong background in e-commerce development and data visualization, showcasing technical proficiency and leadership skills through various projects and cerfitications.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Programming Languages : Python , SQL, Bash Scripting",
+  "Machine Learning Technologies : PyTorch",
+  "Framewrks : Django, Flask, Bootstrap",
+  "Frontend Technologies : HTML5, CSS, JavaScript, Vue.js",
+  "Soft Skills : Problem Solving, Leadership, Teamwork, Communication, Time Management, Adaptability",
+  
 ];
 
 /**
